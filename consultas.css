@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    background-color: #1B334F;
+    color: white;
+    padding: 10px;
+    font-size: 6vw;
+   margin-top: 10%;
+   text-decoration: underline;
+}
+body{
+    background-color: #B0C4DE;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.opciones{
+    width: 50%;
+}
+.opciones a{
+    display: block;
+    text-decoration: none;
+    font-size: 3vw;
+    text-align: center;
+    margin: 5% 20%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 1%;
+    border: 0.5vw solid rgb(76, 64, 184);
+    }

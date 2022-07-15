@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: blue;
+    background-color: #B0C4DE;
+}
+h1{
+    text-align: center;
+    background-color: #1B334F;
+    color: white;
+    padding: 10px;
+    font-size: 6vw;
+   margin-top: 10%;
+   text-decoration: underline;
+}
+.titulo{
+    width: 80%;
+}
+.titulo h1{
+    font-size: 2.5vw;
+  text-align: center;
+  margin-top: 8%;
+  margin-right: 5%;
+}
+
+.datos_usuario{
+    float: left;
+    margin: 3% 5% 0%;
+    width: 30%;
+}
+.datos_usuario label{
+    display: inline-block;
+    width: 35%;
+    margin: 3% 0%;
+    font-size: 1.5vw;
+}
+.datos_usuario input{
+    width: 50%;
+    font-size: 1.1vw;
+    height: 2vw;
+    text-align: center;
+    margin-left: -10%;
+}
+.datos_usuario select{
+    width: 50%;
+    font-size: 1.1vw;
+    height: 2vw;
+    text-align: center;
+    margin-left: -10%;
+}
+
+/*botones*/
+.botones{
+     width: 100%;
+    text-align: center;
+    margin: 1% 0% 2%;
+}
+.botones button{
+    width: 13%;
+    height: 3vw;
+    background-color: rgb(168, 167, 167);
+    font-size: 1.5vw;
+    color: black;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/*fecha_frase*/
+.fecha_frase{
+    display: flex;
+
+}
+.fecha{
+    text-align: center;
+    width: 25%;
+}
+.fecha input{
+    width: 50%;
+    height: 70%;
+    font-size: 1.5vw;
+    padding: 3%;
+    text-align: center;
+
+}

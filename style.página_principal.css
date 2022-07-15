@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    background-color: #1B334F;
+    color: white;
+    padding: 20px;
+}
+body{
+    background-color: #B0C4DE;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    color: #1B334F;
+}
+
+.boton {
+    text-align: center;
+    padding: 17px 45px;
+    background: #1B334F;
+    border: 1px solid #1161B0;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration:none;
+ }

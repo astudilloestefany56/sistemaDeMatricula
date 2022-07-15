@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "open sans";
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+section{
+    position: relative;
+    height: 150vh;
+    width: 100%;
+    background: url("./FONDO-DE-LOGIN.png");
+    background-size: cover;
+    background-position:center cover;
+}
+.form-container{
+    align-self: center;
+    display: flex;
+    position: absolute;
+    flex-direction:column;
+    height: 650px;
+    width: 600px;
+    align-items:stretch;
+    margin: 0px;
+    top: 10%;
+    left: 50% ;
+    background: linear-gradient(rgba(0, 0, 0, 0.596)),rgba(0, 0, 0, 0.562);
+    width: 380px;
+    padding: 0.5px 10px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 70px #000000;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 0.4em;
+}
+h2{
+   color: rgb(221, 221, 221);
+   text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+.control input{
+    text-align: center;
+    width: 80%;
+    display: block;
+    padding: 12px;
+    color: rgb(0, 0, 0) ;
+    outline: none;
+    margin: 40px;
+}
+.button-login{
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    width: 70%;
+    height: 35px;
+    background: #ffffff;
+    color: #b617ff;
+    font-size: 24px;
+}
+.control input[type="submit"]:hover{
+ opacity: 1;
+}
+.link{
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: #fff;
+    opacity: .6;
+    transition: opacity .3s ease;;
+}
+.link a:hover{
+    opacity: 1;
+}
